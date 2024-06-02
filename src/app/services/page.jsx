@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Servicespage from "@/components/services/Servicespage";
 import Pricing from "@/components/pricing";
+import Calltoaction from "@/components/calltoaction";
 const Content = () => {
   return (
     <div>
@@ -149,6 +150,7 @@ const page = () => {
       <Content />
       <Pricing />
       <Servicespage />
+      <Calltoaction />
     </>
   );
 };
