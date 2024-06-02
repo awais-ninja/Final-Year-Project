@@ -12,10 +12,10 @@ const InlineServices = () => {
         <img
           src={imageSrc}
           alt="Service"
-          className="w-80 h-auto mb-4 rounded-lg border-2 border-gray-300"
+          className="w-90 h-auto mb-4 rounded-lg border-2 border-teal-500"
         />
-        <h3 className="text-xl font-bold text-gray-800 mb-2">{heading}</h3>
-        <p className="text-gray-600 text-center">{description}</p>
+        <h3 className="text-xl font-bold text-teal-800 mb-2">{heading}</h3>
+        <p className="text-black text-center">{description}</p>
       </div>
     );
   };

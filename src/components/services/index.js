@@ -42,26 +42,20 @@ const mockData = [
     title: "Shipping Protocols",
     icon: "airplane-engines",
     description:
-      "SwiftLink provides robust shipping protocols, ensuring secure, efficient, and timely delivery of goods. We manage schedules, monitor shipments, and provide real-time tracking to guarantee reliable and smooth logistics operations.      ",
+      "SwiftLink provides robust shipping protocols, ensuring secure, efficient, and timely delivery of goods. We manage schedules, monitor shipments, and provide real-time tracking to guarantee reliable and smooth logistics operations.",
   },
 ];
 
-const index = () => {
+const Index = () => {
   return (
-    <div className="grid grid-cols-3 gap-8 ">
-      {mockData.map((service) => {
-        return (
-          <ServiceCard
-            key={service.id}
-            title={service.title}
-            icon={service.icon}
-          >
-            {service.description}
-          </ServiceCard>
-        );
-      })}
+    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {mockData.map((service) => (
+        <ServiceCard key={service.id} title={service.title} icon={service.icon}>
+          {service.description}
+        </ServiceCard>
+      ))}
     </div>
   );
 };
 
-export default index;
+export default Index;

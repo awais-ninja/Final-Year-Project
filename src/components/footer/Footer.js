@@ -40,22 +40,22 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/services" className="text-white hover:text-gray-300">
+                <a href="/services" className="text-white hover:text-teal-500">
                   Furniture Moving Services
                 </a>
               </li>
               <li>
-                <a href="/services" className="text-white hover:text-gray-300">
+                <a href="/services" className="text-white hover:text-teal-500">
                   Office Moving Services
                 </a>
               </li>
               <li>
-                <a href="/services" className="text-white hover:text-gray-300">
+                <a href="/services" className="text-white hover:text-teal-500">
                   House Moving Services
                 </a>
               </li>
               <li>
-                <a href="/services" className="text-white hover:text-gray-300">
+                <a href="/services" className="text-white hover:text-teal-500">
                   Transportation Services
                 </a>
               </li>
@@ -65,22 +65,22 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/about" className="text-white hover:text-gray-300">
+                <a href="/about" className="text-white hover:text-teal-500">
                   Company Profile
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-white hover:text-gray-300">
+                <a href="/about" className="text-white hover:text-teal-500">
                   Why Choose Us?
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-white hover:text-gray-300">
+                <a href="/about" className="text-white hover:text-teal-500">
                   Mission
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-white hover:text-gray-300">
+                <a href="/about" className="text-white hover:text-teal-500">
                   Testimonials
                 </a>
               </li>
@@ -92,13 +92,13 @@ const Footer = () => {
               <li>
                 <a
                   href="/termsandconditions"
-                  className="text-white hover:text-gray-300"
+                  className="text-white hover:text-teal-500"
                 >
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href="/faq" className="text-white hover:text-gray-300">
+                <a href="/faq" className="text-white hover:text-teal-500">
                   FAQ
                 </a>
               </li>
@@ -108,7 +108,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Useful Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/contact" className="text-white hover:text-gray-300">
+                <a href="/contact" className="text-white hover:text-teal-500">
                   Contact Us
                 </a>
               </li>

@@ -6,7 +6,7 @@ import Calltoaction from "@/components/calltoaction";
 const Content = () => {
   return (
     <div>
-      <div className="  text-5xl font-bold text-teal-800 text-center mt-5">
+      <div className="  text-5xl font-bold text-teal-800 text-center mt-20">
         Our Services
       </div>
       <section className="w-full mx-auto py-10 bg-white">
