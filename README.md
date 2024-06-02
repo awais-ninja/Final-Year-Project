@@ -30,7 +30,7 @@ To get started with SwiftLink, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/swiftlink.git
+   git clone https://github.com/awais-ninja/swiftlink.git
    ```
 
 2. Navigate to the project directory:
@@ -58,8 +58,8 @@ This project is a Final Year Project for the "University of Sahiwal, Sahiwal".
 
 ## License
 
-SwiftLink is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+SwiftLink is licensed under the Free License.
 
 ## Contact
 
-For any inquiries or support, please contact us at [support@swiftlink.com](mailto:support@swiftlink.com).
+For any inquiries or support, please contact us at [awais.brainloggers@gmail.com](mailto:awais.brainloggers@gmail.com).
