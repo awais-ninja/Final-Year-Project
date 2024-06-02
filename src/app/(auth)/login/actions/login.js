@@ -1,13 +1,12 @@
+"use server";
 import { cookies } from "next/headers";
-import { redirect } from "next/navigation";
 
-const login = async (formData) => {
-  "use server";
-  const cookie = cookies();
+const login = async ({ username, password }) => {
   const data = {
-    username: formData.get("username"),
-    password: formData.get("password"),
+    username: username,
+    password: password,
   };
+
   const req = await fetch(`http://localhost:8080/auth/login`, {
     method: "POST",
     headers: {
@@ -15,9 +14,13 @@ const login = async (formData) => {
     },
     body: JSON.stringify(data),
   });
-  if (req.ok) {
-    cookies().set("session", req.headers.get("set-cookie"));
+  if (!req.ok) {
+    return { error: "Invalid username or password" };
   }
-  redirect("/");
+
+  const res = await req.json();
+
+  return { user: res };
 };
+
 export default login;

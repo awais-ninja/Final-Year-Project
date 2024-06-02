@@ -7,11 +7,13 @@ const Footer = () => {
       <footer className="bg-slate-900 py-8 text-white">
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           <div className="flex flex-col">
-            <img
-              src="/images/logo/logo.png"
-              alt="Logo"
-              className="w-full max-w-xs mb-4"
-            />
+            <Link href="/">
+              <img
+                src="/images/logo/logo.png"
+                alt="Logo"
+                className="w-full max-w-xs mb-4"
+              />
+            </Link>
             <p>123 Street, Sahiwal, Punjab, Pakistan</p>
             <p>(+92) 304 9978 288</p>
             <p>info@swiftlink.com</p>
