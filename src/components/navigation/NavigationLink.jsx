@@ -8,10 +8,8 @@ const NavigationLink = ({ href, children }) => {
   return (
     <Link
       href={href}
-      className={`px-2.5 py-1 hover:bg-slate-200 transition-colors rounded-md border-b-2  hover:border-slate-400 selection:bg-slate-200 select-none cursor-pointer ${
-        pathname === href
-          ? "border-slate-400 bg-slate-200"
-          : "border-transparent"
+      className={`px-2.5 py-1 hover:bg-white transition-colors rounded-md border-b-2  hover:border-teal-400 selection:bg-slate-200 select-none cursor-pointer ${
+        pathname === href ? "border-teal-400 bg-white" : "border-transparent"
       }`}
     >
       {children}

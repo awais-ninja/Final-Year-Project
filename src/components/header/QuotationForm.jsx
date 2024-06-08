@@ -9,7 +9,7 @@ const QuotationForm = () => {
       <div className="mb-3">
         <label
           htmlFor="name"
-          className="block text-sm font-medium text-gray-700"
+          className="block text-sm font-medium text-teal-700"
         >
           Full Name
         </label>
@@ -24,7 +24,7 @@ const QuotationForm = () => {
       <div className="mb-3">
         <label
           htmlFor="email"
-          className="block text-sm font-medium text-gray-700"
+          className="block text-sm font-medium text-teal-700"
         >
           Email
         </label>
@@ -39,7 +39,7 @@ const QuotationForm = () => {
       <div className="mb-3">
         <label
           htmlFor="address-from"
-          className="block text-sm font-medium text-gray-700"
+          className="block text-sm font-medium text-teal-700"
         >
           Address From:
         </label>
@@ -54,7 +54,7 @@ const QuotationForm = () => {
       <div className="mb-3">
         <label
           htmlFor="address-to"
-          className="block text-sm font-medium text-gray-700"
+          className="block text-sm font-medium text-teal-700"
         >
           Address To:
         </label>
@@ -69,7 +69,7 @@ const QuotationForm = () => {
       <div className="mb-3">
         <label
           htmlFor="weight"
-          className="block text-sm font-medium text-gray-700"
+          className="block text-sm font-medium text-teal-700"
         >
           Estimated Weight {`(+/- 10% allowed)`}:
         </label>
@@ -84,7 +84,7 @@ const QuotationForm = () => {
       <div className="mb-3">
         <label
           htmlFor="message"
-          className="block text-sm font-medium text-gray-700"
+          className="block text-sm font-medium text-teal-700"
         >
           Your Message:
         </label>
@@ -98,7 +98,7 @@ const QuotationForm = () => {
       </div>
       <button
         type="submit"
-        className="inline-block shrink-0 w-full rounded-md border border-cyan-600 bg-cyan-600 px-12 py-2 text-sm font-medium text-white transition hover:bg-transparent hover:text-cyan-600 focus:outline-none focus:ring active:text-cyan-500"
+        className="inline-block shrink-0 w-full rounded-md border border-teal-600 bg-teal-600 px-12 py-2 text-sm font-medium text-white transition hover:bg-transparent hover:text-cyan-600 focus:outline-none focus:ring active:text-cyan-500"
       >
         Get Quotation
       </button>

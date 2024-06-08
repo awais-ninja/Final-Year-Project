@@ -44,7 +44,7 @@ const Index = () => {
             layout="fill"
             objectFit="cover"
           />
-          <div className="space-y-4 bg-slate-600 p-4 sm:p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 saturate-150 border border-gray-100">
+          <div className="space-y-4 bg-teal-600 p-4 sm:p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 saturate-150 border border-gray-100">
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold hidden sm:block">
               Optimize Your Supply Chain.
             </h1>
@@ -63,7 +63,7 @@ const Index = () => {
             layout="fill"
             objectFit="cover"
           />
-          <div className="space-y-4 bg-slate-600 p-4 sm:p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 saturate-150 border border-gray-100">
+          <div className="space-y-4 bg-teal-600 p-4 sm:p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 saturate-150 border border-gray-100">
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold hidden sm:block">
               All your Freight Problems Answered
             </h1>
@@ -82,7 +82,7 @@ const Index = () => {
             layout="fill"
             objectFit="cover"
           />
-          <div className="space-y-4 bg-slate-600 p-4 sm:p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 saturate-150 border border-gray-100">
+          <div className="space-y-4 bg-teal-600 p-4 sm:p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 saturate-150 border border-gray-100">
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold hidden sm:block">
               Control Of Your Moving
             </h1>
@@ -101,7 +101,7 @@ const Index = () => {
             layout="fill"
             objectFit="cover"
           />
-          <div className="space-y-4 bg-slate-600 p-4 sm:p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 saturate-150 border border-gray-100">
+          <div className="space-y-4 bg-teal-600 p-4 sm:p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 saturate-150 border border-gray-100">
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold hidden sm:block">
               Moving & Logistics to Another Level
             </h1>

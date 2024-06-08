@@ -4,9 +4,14 @@ import register from "./actions/register";
 const page = () => {
   return (
     <form className="w-full" action={register}>
-      <h2 className="text-4xl text-center font-bold mb-12">Register Here</h2>
+      <h2 className="text-4xl text-center font-bold mb-12 text-teal-700">
+        Register Here
+      </h2>
       <div className="mb-3">
-        <label htmlFor="username" className="block text-sm font-medium text-gray-700">
+        <label
+          htmlFor="username"
+          className="block text-sm font-medium text-teal-700"
+        >
           Username
         </label>
         <input
@@ -18,7 +23,10 @@ const page = () => {
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+        <label
+          htmlFor="email"
+          className="block text-sm font-medium text-teal-700"
+        >
           Email
         </label>
         <input
@@ -30,7 +38,10 @@ const page = () => {
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+        <label
+          htmlFor="password"
+          className="block text-sm font-medium text-teal-700"
+        >
           Password
         </label>
         <input
@@ -42,7 +53,7 @@ const page = () => {
       </div>
       <button
         type="submit"
-        className="inline-block shrink-0 w-full rounded-md border border-blue-600 bg-blue-600 px-12 py-2 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500"
+        className="inline-block shrink-0 w-full rounded-md border border-teal-600 bg-teal-600 px-12 py-2 text-sm font-medium text-white transition hover:bg-transparent hover:text-teal-700 focus:outline-none focus:ring active:text-blue-500"
       >
         Sign Up
       </button>

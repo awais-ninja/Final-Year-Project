@@ -30,13 +30,13 @@ const Graph = ({ data }) => {
 
     // Clean up function to destroy the chart when component unmounts
     return () => {
-      if (chartRef.current.chart) {
+      if (chartRef.current?.chart) {
         chartRef.current.chart.destroy();
       }
     };
-  }, [data]);
+  }, [data, chartRef.current]);
 
-  return <canvas ref={chartRef} id="line-chart" />;
+  return <canvas className="" ref={chartRef} id="line-chart" />;
 };
 
 export default Graph;

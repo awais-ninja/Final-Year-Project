@@ -2,9 +2,15 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import DP from "@/static/images/placeholders/dp.png";
+import { useAuthContext } from "@/hooks/useAuthContext";
+import { useRouter } from "next/navigation";
+
 const DashboardHeader = () => {
+  const { auth, setAuth } = useAuthContext();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     let timer;
@@ -34,7 +40,7 @@ const DashboardHeader = () => {
         onMouseLeave={handleMouseLeave}
       >
         <Image
-          src="/images/dp.png" // Replace this with the path to your profile picture
+          src={DP} // Replace this with the path to your profile picture
           alt="Profile"
           className="w-8 h-8 rounded-full cursor-pointer"
         />
@@ -46,9 +52,19 @@ const DashboardHeader = () => {
           >
             <ul>
               <li className="py-2 px-4 hover:text-black">
-                <Link href="#">
+                <button
+                  onClick={() => {
+                    setAuth({
+                      isAuthenticated: false,
+                      user: null,
+                    });
+                    setTimeout(() => {
+                      router.replace("/");
+                    }, 2000);
+                  }}
+                >
                   <span>Logout</span>
-                </Link>
+                </button>
               </li>
               <li className="py-2 px-4 hover:text-black">
                 <Link href="/dashboard/admin/settings">

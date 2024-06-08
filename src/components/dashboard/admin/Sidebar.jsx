@@ -1,11 +1,16 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+
+import Logo from "@/static/images/placeholders/logo/logo-bg-white.png";
 
 const Sidebar = () => {
   return (
     <aside className="bg-teal-800 text-white lg:w-64">
       <div className="p-4">
-        <h2 className="text-xl font-semibold">Sidebar</h2>
+        <Link href="/">
+          <Image className="width-auto" src={Logo} alt="Logo image" />
+        </Link>
         <ul className="mt-4 space-y-2">
           <li>
             <Link href="/dashboard/admin">

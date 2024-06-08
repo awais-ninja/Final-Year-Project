@@ -1,6 +1,10 @@
 import Image from "next/image";
 import React from "react";
 
+import TonsOfGoods from "@/static/images/accomplishments/tons-of-goods.png";
+import DeliveredPackages from "@/static/images/accomplishments/delivered-packages.png";
+import CountriesCovered from "@/static/images/accomplishments/countries-covered.png";
+
 const Accomplishments = () => {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -16,7 +20,7 @@ const Accomplishments = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div className="flex flex-col justify-between items-center p-4 bg-gray-100 rounded-lg shadow-md">
           <Image
-            src="/accomplishments/tons-of-goods.png"
+            src={TonsOfGoods}
             alt="Tons of goods"
             className="w-32 md:w-40 h-32 md:h-40 rounded mb-2"
           />
@@ -25,7 +29,7 @@ const Accomplishments = () => {
         </div>
         <div className="flex flex-col justify-between items-center p-4 bg-gray-100 rounded-lg shadow-md">
           <Image
-            src="/accomplishments/delivered-packages.png"
+            src={DeliveredPackages}
             alt="Delivered packages"
             className="w-32 md:w-40 h-32 md:h-40 rounded mb-2"
           />
@@ -36,7 +40,7 @@ const Accomplishments = () => {
         </div>
         <div className="flex flex-col justify-between items-center p-4 bg-gray-100 rounded-lg shadow-md">
           <Image
-            src="/accomplishments/countries-covered.png"
+            src={CountriesCovered}
             alt="Countries covered"
             className="w-32 md:w-40 h-32 md:h-40 rounded mb-2"
           />

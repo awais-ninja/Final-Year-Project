@@ -2,6 +2,8 @@ import React from "react";
 import Madeby from "./Madeby";
 import Link from "next/link";
 import Image from "next/image";
+import Logo from "@/static/images/placeholders/logo/logo.png";
+
 const Footer = () => {
   return (
     <>
@@ -9,11 +11,7 @@ const Footer = () => {
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           <div className="flex flex-col">
             <Link href="/">
-              <Image
-                src="/images/logo/logo.png"
-                alt="Logo"
-                className="w-full max-w-xs mb-4"
-              />
+              <Image src={Logo} alt="Logo" className="w-full max-w-xs mb-4" />
             </Link>
             <p>123 Street, Sahiwal, Punjab, Pakistan</p>
             <p>(+92) 304 9978 288</p>

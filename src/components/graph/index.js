@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import GraphImage from "@/static/images/placeholders/graph.jpg";
 
 const index = () => {
   return (
@@ -8,9 +9,9 @@ const index = () => {
       <div className="grid grid-cols-2 gap-4 items-center">
         <div>
           <Image
-            src="/images/graph.jpg"
+            src={GraphImage}
             alt="graph showing business analytics"
-            className="object-cover   rounded-lg shadow-md"
+            className="object-cover md:rounded-lg shadow-md"
           />
         </div>
         <div>
