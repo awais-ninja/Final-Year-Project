@@ -1,7 +1,7 @@
 // Navigation.js
 import Link from "next/link";
 import NavigationLink from "./NavigationLink";
-
+import Image from "next/image";
 const NavigationList = ({ data }) => {
   return (
     <ul className="flex flex-col md:flex-row md:items-center justify-center space-y-1 md:space-y-0 md:space-x-1">
@@ -26,7 +26,7 @@ const Navigation = () => {
     <div className="px-4 md:px-14 shadow-lg bg-slate-50 py-2">
       <div className="flex flex-col md:flex-row md:items-center">
         <Link href="/">
-          <img
+          <Image
             src="/images/logo/logo.png"
             alt="Logo"
             className="h-12 md:h-auto"

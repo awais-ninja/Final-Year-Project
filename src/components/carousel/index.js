@@ -38,6 +38,7 @@ const Index = () => {
       <SwiperSlide className="h-full">
         <div className="h-full w-full sm:w-4/5 md:w-3/5 flex items-center overflow-hidden px-4 sm:px-12 md:px-24">
           <Image
+            alt="a image"
             src={Image1}
             className="absolute top-0 left-0 object-cover -z-10"
             layout="fill"
@@ -56,6 +57,7 @@ const Index = () => {
       <SwiperSlide>
         <div className="h-full w-full sm:w-4/5 md:w-3/5 flex items-center overflow-hidden px-4 sm:px-12 md:px-24">
           <Image
+            alt="a image"
             src={Image2}
             className="absolute top-0 left-0 object-cover -z-10"
             layout="fill"
@@ -74,6 +76,7 @@ const Index = () => {
       <SwiperSlide>
         <div className="h-full w-full sm:w-4/5 md:w-3/5 flex items-center overflow-hidden px-4 sm:px-12 md:px-24">
           <Image
+            alt="a image"
             src={Image1}
             className="absolute top-0 left-0 object-cover -z-10"
             layout="fill"
@@ -92,6 +95,7 @@ const Index = () => {
       <SwiperSlide>
         <div className="h-full w-full sm:w-4/5 md:w-3/5 flex items-center overflow-hidden px-4 sm:px-12 md:px-24">
           <Image
+            alt="a image"
             src={Image2}
             className="absolute top-0 left-0 object-cover -z-10"
             layout="fill"

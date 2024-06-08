@@ -28,7 +28,7 @@ const LoginPage = () => {
       document.cookie = `token=${req.user.user.refreshToken};path=/;max-age=${
         60 * 60 * 24 * 30
       };`;
-      router.push("/dashboard", "replace");
+      router.push("/dashboard/admin", "replace");
     } catch (error) {
       console.log(error.message);
     }

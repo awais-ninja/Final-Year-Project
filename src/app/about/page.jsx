@@ -4,12 +4,13 @@ import Shipments from "@/components/aboutPage";
 import ImageGallery from "@/components/imageGallery";
 import Calltoaction from "@/components/calltoaction";
 import Testimonials from "@/components/testimonials";
+import Image from "next/image";
 
 const InlineServices = () => {
   const ServiceSection = ({ imageSrc, heading, description }) => {
     return (
       <div className="flex flex-col items-center justify-center">
-        <img
+        <Image
           src={imageSrc}
           alt="Service"
           className="w-90 h-auto mb-4 rounded-lg border-2 border-teal-500"

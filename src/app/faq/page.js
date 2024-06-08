@@ -1,8 +1,9 @@
 "use client";
+
 import { useState } from "react";
 import Link from "next/link";
 
-const page = () => {
+const Page = () => {
   const [openQuestion, setOpenQuestion] = useState(null);
 
   const toggleQuestion = (index) => {
@@ -13,7 +14,7 @@ const page = () => {
     {
       question: "What types of service does SwiftLink provide?",
       answer:
-        "SwuftLink provides a number of transport services to customers around the world. Please refer to our Services page for more information.",
+        "SwiftLink provides a number of transport services to customers around the world. Please refer to our Services page for more information.",
     },
     {
       question: "What is the pricing structure?",
@@ -23,12 +24,12 @@ const page = () => {
     {
       question: "Do you service my industry?",
       answer:
-        "Yes. Our professional logistics team is proud to work with companies both large and small. We can provide you with scheduled service or a one-off shipment. Some of the companies we service include mechanical, industrial, trade show transportation, produce, food and beverage, aerospace and defense industry, plastic, automotive, pharmaceutical, sensitive deliveries, white-glove transportation. ",
+        "Yes. Our professional logistics team is proud to work with companies both large and small. We can provide you with scheduled service or a one-off shipment. Some of the companies we service include mechanical, industrial, trade show transportation, produce, food and beverage, aerospace and defense industry, plastic, automotive, pharmaceutical, sensitive deliveries, white-glove transportation.",
     },
     {
       question: "What payment methods do you accept?",
       answer:
-        "Payment terms/options are available upon approval for your freight shipping account with us.  We also do accept, Visa, MasterCard, Discover and AMEX.",
+        "Payment terms/options are available upon approval for your freight shipping account with us. We also do accept, Visa, MasterCard, Discover and AMEX.",
     },
   ];
 
@@ -80,7 +81,7 @@ const page = () => {
             </div>
           ))}
         </div>
-        <p className="text-center text-gray-600 textbase mt-9">
+        <p className="text-center text-gray-600 text-base mt-9">
           Still have questions?
           <Link href="./contact"> Contact our support</Link>
         </p>
@@ -89,4 +90,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

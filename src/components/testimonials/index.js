@@ -11,7 +11,7 @@ const index = () => {
           <div className="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
             <p className="font-bold uppercase text-teal-800">Sophie Reynolds</p>
             <p className="text-xl font-light italic text-black lowercase">
-              I recently used SwiftLink's labor services, and I was impressed by
+              I recently used SwiftLinks labor services, and I was impressed by
               their professionalism and efficiency. They completed the job with
               precision and care. Definitely recommending them to friends and
               family!
@@ -23,8 +23,8 @@ const index = () => {
           <div className="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
             <p className="font-bold uppercase text-teal-800 ">Ryan Mitchell</p>
             <p className="text-xl font-light italic text-black lowercase">
-              As a regular user of SwiftLink's transit control service, I can
-              attest to its effectiveness. They've helped optimize our
+              As a regular user of SwiftLinks transit control service, I can
+              attest to its effectiveness. They have helped optimize our
               transportation network, resulting in smoother operations and
               happier customers. Kudos to the SwiftLink team!
             </p>
@@ -35,9 +35,9 @@ const index = () => {
           <div className="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
             <p className="font-bold uppercase text-teal-800">Emily Johnson</p>
             <p className="text-xl font-light italic text-black lowercase">
-              SwiftLink's moving services made my relocation stress-free. Their
+              SwiftLinks moving services made my relocation stress-free. Their
               team was professional, efficient, and handled my belongings with
-              care. I couldn't have asked for a better experience. Highly
+              care. I could not have asked for a better experience. Highly
               recommended!
             </p>
             <div className="flex items-center justify-center space-x-2 mt-4">

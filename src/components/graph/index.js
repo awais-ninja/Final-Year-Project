@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -6,7 +7,7 @@ const index = () => {
     <div className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-2 gap-4 items-center">
         <div>
-          <img
+          <Image
             src="/images/graph.jpg"
             alt="graph showing business analytics"
             className="object-cover   rounded-lg shadow-md"
@@ -18,7 +19,7 @@ const index = () => {
           </h1>
           <p className="text-gray-500">
             We empower businesses worldwide with tailored solutions, fostering
-            global prosperity and driving success in today's dynamic landscape.
+            global prosperity and driving success in todays dynamic landscape.
           </p>
           <div className="mt-8">
             <Link href="/">
